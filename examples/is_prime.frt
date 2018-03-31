@@ -12,3 +12,10 @@
 	then
 	then
 ;
+
+: isprime-allot
+	isprime
+	1 allot 
+	dup rot swap 
+	! 
+;
